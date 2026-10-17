@@ -1,0 +1,45 @@
+\documentclass[11pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{geometry}
+\geometry{margin=1in}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{proposition}{Proposition}
+\newtheorem{corollary}{Corollary}
+\newtheorem{definition}{Definition}
+
+\title{[Paper Title -- TBD]}
+\author{Jie Song}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+% TODO: 1 paragraph abstract
+\end{abstract}
+
+\input{sections/introduction}
+\input{sections/related-work}
+\input{sections/background}
+\input{sections/exact-symmetries}
+\input{sections/approximate-symmetries}
+\input{sections/symbolic-extraction}
+\input{sections/discussion}
+
+\section*{Acknowledgments}
+% TODO: advisor's guidance; disclosure of AI assistance as required by the venue
+
+\bibliographystyle{plain}
+\bibliography{references}
+
+\appendix
+\input{sections/appendix-proofs}
+
+\end{document}
